@@ -15,7 +15,7 @@ Table of Contents
  The development of an application from teh back end with a social network environment.
 
 
- * Live URL:
+ * Live URL: https://sleepy-beyond-25889.herokuapp.com/
 
  * Repo URL: https://github.com/gretchesketch/HW_19_text-editer
 
@@ -28,8 +28,8 @@ This project used the following:
  * Javascript
  * Node.js
  * express
- * mongoDB
- * mongoose
+ * pwa
+ * webpack
  * nodemon
 
 
@@ -37,18 +37,29 @@ This project used the following:
 Dependencies
 --------------------------------------------------------------------------------------------
  
- * Node.js
- * express
- * mongoDB
- * mongoose
+ * babel/core
+ * babel/plugin-transform-runtime
+ * babel/preset-env
+ * babel/runtime
+ * babel-loader
+ * css-loader
+ * html-webpack-plugin
+ * http-server
+ * style-loader
+ * webpack
+ * webpack-cli
+ * webpack-dev-server
+ * webpack-pwa-manifest
+ * workbox-webpack-plugin
+ * if-env
  * nodemon
- * moment
+ * concurrently
 
 
  Troubleshooting
 ----------------------------------------------------------------------------------------
 
-* used insomnia to check the routes and make demonstration video.
+* 
 
 
 
@@ -65,6 +76,6 @@ Dependencies
 
 
 
- <!-- ![img](assets\team-generator_nodePrompt_screenShot.jpg "node prompt image")
- ![img](assets\team-generator_GeneratedLivePage_screenShot.jpg "generated live page image")
+ ![img](assets\jate.jpg "deployed text editer")
+ <!--![img](assets\team-generator_GeneratedLivePage_screenShot.jpg "generated live page image")
  ![img](assets\team-generator_runAndPassTests_screenShot.jpg "running tests image") -->
